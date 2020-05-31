@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import PropertyListings from './components/PropertyListings';
 import * as serviceWorker from './serviceWorker';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <MuiThemeProvider>
+      <PropertyListings />
+    </MuiThemeProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

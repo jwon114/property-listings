@@ -1,0 +1,50 @@
+{
+  "results": [
+    {
+      "price": "$726,500",
+      "agency": {
+        "brandingColors": {
+          "primary": "#ffe512"
+        },
+        "logo": "agency_1.jpg"
+      },
+      "id": "1",
+      "mainImage": "property_1.jpg"
+    },
+    {
+      "price": "$560,520",
+      "agency": {
+        "brandingColors": {
+          "primary": "#fcfa3b"
+        },
+        "logo": "agency_2.png"
+      },
+      "id": "2",
+      "mainImage": "property_2.jpg"
+    },
+    {
+      "price": "$826,500",
+      "agency": {
+        "brandingColors": {
+          "primary": "#57B5E0"
+        },
+        "logo": "agency_3.png"
+      },
+      "id": "3",
+      "mainImage": "property_3.jpg"
+    }
+  ],
+  "saved": [
+    {
+      "price": "$526,500",
+      "agency": {
+        "brandingColors": {
+          "primary": "#000000"
+        },
+        "logo": "agency_4.png"
+      },
+      "id": "4",
+      "mainImage": "property_4.jpg"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+.propertyCard {
+  position: relative;
+  margin: 30px auto;
+  width: 480px;
+}
+
+.propertyCard__header > div {
+  padding-right: 1em !important;
+}
+
+.propertyCard__image > div {
+  height: 100%;
+}
+
+.propertyCard__image {
+  height: 360px;
+}
+
+.propertyCard__footer {
+  
+}
+
+.propertyCard__overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  transition: .3s linear;
+}
+
+.propertyCard:hover .propertyCard__overlay {
+  background-color: rgba(0,0,0,0.7);
+  transition: .3s linear;
+}
+
+.propertyCard:hover .propertyCard__button_container {
+  bottom: 15%;
+  opacity: 1;
+  transition: .3s linear;
+}
+
+.propertyCard__button_container {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  opacity: 0;
+  transition: .3s linear;
+  width: 100%;
+}
+
+.propertyCard__button {
+}
+
+.propertyCard__button button {
+  background-color: inherit !important;
+}
+
+.propertyCard__button:hover {
+  cursor: pointer;
+}
