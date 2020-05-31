@@ -12,7 +12,7 @@ npm install
 ```
 npm start
 ```
-4. Navigate to http://localhost:8080 to use the application
+4. Navigate to http://localhost:3000 to use the application
 ## Running the tests
 - Runs test files located in the test folder within root.
 ```
