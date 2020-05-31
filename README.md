@@ -18,7 +18,7 @@ npm start
 ```
 npm test
 ```
-## Functional Requirements:
+## Functional Requirements
 * Hovering over a property card in the Results column will display an "Add" button, when clicked will create the property in the Saved Properties column.
 * Hovering over a property card in the Saved Properties column will display an "Remove" button, when clicked will remove the property from the Saved Properties column.
 ## Design & Implementation
