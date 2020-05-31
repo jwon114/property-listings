@@ -30,7 +30,7 @@ Mocha and Chai were already included in the boilerplate for testing. I added Enz
 
 Material-UI for added styling of buttons, property card layout and notifications.
 ## Built With
-* React, used a React boilerplate with bundler Webpack, Babel, Mocha testing framework.
+* React Create App
 * Enzyme testing utilities for React, Chai for test assertions.
 * [JSON-server](https://github.com/typicode/json-server), hosting the db.json as a backend API 
 * [Material-UI](http://www.material-ui.com) for UI framework
